@@ -1,0 +1,31 @@
+# Ambientes virtuais
+.venv/
+.ignore/
+
+# Pastas de download temporário ou cache
+raw.githubusercontent.com/
+
+# Dados brutos e transformados (caso sejam grandes ou confidenciais)
+dados_brutos.csv
+dados_limpos.csv
+dados_transformados.csv
+TelecomX_Data.json
+
+# Arquivos auxiliares ou exportados
+TelecomX_BR.py
+RELATORIO_Revisado.md
+README_atualizado.md
+
+# Notebooks gerados/exportados (mantém só o principal)
+TelecomX_BR_Documentado.ipynb
+
+# Arquivos e pastas geradas pelo Jupyter
+.ipynb_checkpoints/
+
+# Arquivos de imagem (se não forem essenciais para o repositório público)
+imagens/
+*.png
+
+# Cache Python
+__pycache__/
+*.pyc
